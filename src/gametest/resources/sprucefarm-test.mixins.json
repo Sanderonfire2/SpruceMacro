@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.sprucefarm.test.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ServerPlaceDebugMixin",
+		"LimitedAxeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

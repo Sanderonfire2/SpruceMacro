@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "sprucefarm-test",
+	"version": "1.0.0",
+	"name": "Spruce Farm Automator Client Test",
+	"environment": "*",
+	"mixins": [
+		"sprucefarm-test.mixins.json"
+	],
+	"entrypoints": {
+		"main": [
+			"com.sprucefarm.test.TestSupport"
+		],
+		"fabric-client-gametest": [
+			"com.sprucefarm.test.FarmClientGameTest"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"sprucefarm": "*"
+	}
+}
